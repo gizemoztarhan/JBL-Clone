@@ -1,0 +1,99 @@
+.home {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10%;
+    gap: 30px;
+  
+    &-left {
+        color: $text-color;
+        display: grid;
+        place-items: center;
+        gap: 30px;
+
+        span {
+            rotate: 90deg;
+            font-size: $small-font-size;
+            white-space: nowrap;
+            position: relative;
+
+            &:after {
+                content: "";
+                width: 48px;
+                height: 1px;
+                background-color: $first-color;
+                display: block;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                right: -65px;
+
+            }
+        }
+
+        &-socials {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            a {
+                color: $text-color;
+                font-size: 20px;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    color: $first-color;
+                }
+            }
+        }
+    }
+
+    &-center {
+        display: grid;
+        justify-self: center;
+        position: relative;
+        img {
+            width: 220px;
+        }
+
+        &-title{
+            color: $first-color;
+            font-size: $biggest-font-size;
+            position: absolute;
+            top: -30px;
+            display: flex;
+            column-gap: 7px;
+            justify-self: center;
+
+            span:nth-child(2){
+                z-index: -1;
+
+            }
+        }
+
+        &-tooltip{
+            position:absolute;
+            top: 5px;
+            right: 24px;
+            img{
+
+                width: 100px;
+            
+            }
+            span{
+                font-size: $small-font-size;
+                background: $gradient-color;
+                border-radius: 65px; 
+                padding: 6px 12px; 
+                position: absolute;
+                
+                color: $white-color;
+                transform: translate(-4px, -20px);
+
+            }
+        }
+
+    }
+}

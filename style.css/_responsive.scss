@@ -1,0 +1,208 @@
+@media (min-width:600px) and (max-width:900px){
+    .footer-wrapper{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media(max-width:600px){
+.favorites{
+    &-container{
+        flex-direction: column;
+    }
+}
+.footer-wrapper{
+    grid-template-columns: repeat(1, minmax(250px,auto)) !important;
+    }
+}
+
+@media (max-width: 800px){
+    #menu-btn{
+        display: block !important;
+    }
+    .nav-links{
+        display: none !important;
+    }
+    .nav-links.open{
+        display: flex !important;
+        flex-direction: column;
+        position: fixed;
+        top: 90px !important;
+        right: 3%;
+        padding: 15px;
+        box-shadow: 2px 2px 10px $first-color;
+        border-radius: 10px;
+        background:$gradient-color;
+        transition: all 0.4s ease-in-out;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+         border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .home-left-socials{
+        margin-top: 100px;
+    }
+    .about{
+        grid-template-columns: 1fr !important ;
+    }
+
+    .sponsor-container {
+        justify-self: center;
+      }
+    
+      header {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 0 0 16px 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11.2px);
+        -webkit-backdrop-filter: blur(11.2px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+}
+
+@media (min-width: 768px){
+    .home{
+
+        &-center{
+            
+            &-img{
+
+                width: 320px !important;
+                
+            }
+
+            &-title{
+
+                font-size: 256px !important;
+                top: -80px !important;  
+            }
+        }
+
+        &-left{
+            span{
+                font-size: $normal-font-size !important;
+                &::after{
+                    width: 100% !important; 
+                    left: 100px;
+                }
+            }
+            &-socials{
+                a{
+                    font-size: 25px !important;
+                }
+            } 
+
+        }
+
+    }    
+}
+
+@media (max-width:1200px){
+    .model{
+        &-image{
+            width: 280px !important ;
+        }
+    
+        &-text{
+            font-size:$smaller-font-size !important;
+        }
+    
+        &-tooltips{
+            img{
+                width: 60px;
+            }
+            &-1 {
+                top: 190px !important;
+                left: 80px !important;
+              }
+              &-2 {
+                top: 120px !important;
+                right: 40px !important;
+              }
+              &-3 {
+                bottom: 50px !important;
+                left: 40px !important;
+              }
+              &-4 {
+                bottom: 100px !important;
+                left: 30px !important;
+              }
+        }
+    }
+}
+
+@media (min-width: 1150px){
+    .home{
+
+        &-center{
+            
+            &-img{
+
+                width: 400px !important;
+                
+            }
+
+            &-title{
+
+                font-size: 19rem !important;
+                top: -100px !important; 
+            }
+                            
+ 
+        }
+                
+    }
+
+}
+
+@media(max-width:400px){
+    .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        &-center{
+            &-img{
+
+                width: 150px !important;
+                
+            }
+
+            &-title{
+
+                font-size: 120px !important;
+                top: -30px !important;  
+            }
+            &-tooltip{
+                img{
+    
+                    width: 50px !important;
+                
+                }
+                span{
+                    font-size: $smaller-font-size !important;
+                    padding: 4px 10px !important ; 
+                    
+                }
+            }
+        }
+
+        &-left{
+            span{
+                font-size: $smaller-font-size !important;
+                &::after{
+                    width: 100% !important; 
+                    left: 100px;
+                }
+            }
+            &-socials{
+                a{
+                    font-size: 20px !important;
+                }
+            } 
+
+        }
+
+
+
+    }    
+}
+

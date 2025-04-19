@@ -1,0 +1,52 @@
+.model {
+    &-content {
+        position: relative;
+        justify-self: center;
+        padding-top: 100px; 
+    }
+    &-image{
+        width: 600px;
+    }  
+
+    &-text{
+        background: $gradient-color;
+        padding: 6px 12px;
+        border-radius: 65px;
+        color: $white-color;
+        font-size:$small-font-size;
+        font-weight: $font-medium;
+        position: absolute;
+        white-space: nowrap;
+        transform: translate(0,-15px);
+    }
+    &-tooltips{
+        position: absolute;
+       
+               &-1{
+                top: 270px;
+                left: 200px;
+               }
+               &-2{
+                top: 120px;
+                right: 24px;
+               }
+               &-3{
+                bottom: 150px;
+                left: 380px;
+               }
+               &-4{
+                bottom: 100px;
+                left:120px;
+               }
+          
+           }
+    .button-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 60px;
+          }
+
+
+
+}
