@@ -8,21 +8,21 @@ Created purely for educational and portfolio purposes. 🎯
 
 ## 🛠️  Features
 
-- 🔸 Fully responsive (mobile/tablet/desktop)
+ 🔸 Fully responsive (mobile/tablet/desktop)
 
-- 🔸 Styled with SCSS (modular & maintainable)
+ 🔸 Styled with SCSS (modular & maintainable)
 
-- 🔸 JavaScript-powered toggle menu
+ 🔸 JavaScript-powered toggle menu
 
-- 🔸 Social media icons (Instagram, Facebook, YouTube)
+ 🔸 Social media icons (Instagram, Facebook, YouTube)
 
-- 🔸 Tooltip-based product info display
+ 🔸 Tooltip-based product info display
 
-- 🔸 Card layout for showcasing models
+ 🔸 Card layout for showcasing models
 
-- 🔸 Semantic HTML5 for SEO-friendly structure
-
-- 🔸 Flexbox & CSS Grid used
+ 🔸 Semantic HTML5 for SEO-friendly structure
+ 
+ 🔸 Flexbox & CSS Grid used
 
 ---
 ### 🧩 Page Sections
